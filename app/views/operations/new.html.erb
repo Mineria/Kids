@@ -1,0 +1,15 @@
+<h1>Añadir operación</h1>
+
+<%= @operation.operand1 %>
+<%= @operation.operator %>
+<%= @operation.operand2 %>
+
+<%= form_tag(create_operation_path, :method=>'post', :multipart => true) do %>
+ <p>
+   Reply:<br />
+   <%= text_field_tag "response" %>
+ </p>
+ <p>
+   <%= submit_tag 'Submit' %>
+ </p>
+<% end %>
