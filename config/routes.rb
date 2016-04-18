@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   get 'operations' => 'operations#index'
   get 'operations/new' => 'operations#new', as: :display_operation
-  post 'operations/new' => 'operations#create', as: :create_operation
+  post 'operations/:id/new' => 'operations#create', as: :create_operation
   get 'favoritos' => 'peliculas#favoritos'
 
   resources :peliculas

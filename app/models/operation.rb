@@ -4,23 +4,25 @@ class Operation
   include Mongoid::Document
 
   field :name, type: String
-  field :time_init, type: Time, default: Time.new
+  field :time_init, type: Time
   field :time_end, type: Time
 
   field :operand1, type: Integer
   field :operand2, type: Integer
   field :operator, type: String
 
-  def validate_response response
-    if self.operator == "+"
-      result = @operand1 + @operand2
+  def validate_response? response
+    if operator == "+"
+      result = operand1 + operand2
+      # puts "Yay"
+      # p response == result
       response == result
     end
   end
 
   def register_response_time
     self.time_end = Time.new
-    save
+    save!
   end
 
   # Register time elapsed to

@@ -6,9 +6,10 @@ class OperationsController < ApplicationController
 
   def new
     @operation = Operation.new
-    @operation.operand1 = 2
-    @operation.operand2 = 5
+    @operation.operand1 = rand(1..99)
+    @operation.operand2 = rand(1..99)
     @operation.operator = "+"
+    @operation.time_init = Time.new
     @operation.save
   end
 
@@ -16,10 +17,9 @@ class OperationsController < ApplicationController
   def create
     @operation = Operation.find(params[:id])
 
-    if @operation
-      if @operation.validate_response
+    if @operation and @operation.validate_response? params[:response].to_i
         @operation.register_response_time
-      end
+        render "response"
     else
       # Redirect to same view
       render :new

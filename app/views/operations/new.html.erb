@@ -4,7 +4,7 @@
 <%= @operation.operator %>
 <%= @operation.operand2 %>
 
-<%= form_tag(create_operation_path, :method=>'post', :multipart => true) do %>
+<%= form_tag(create_operation_path(@operation.id), :method=>'post', :multipart => true) do %>
  <p>
    Reply:<br />
    <%= text_field_tag "response" %>

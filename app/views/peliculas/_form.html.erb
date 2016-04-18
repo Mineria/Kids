@@ -2,7 +2,6 @@
   <% if @pelicula.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@pelicula.errors.count, "error") %> prohibited this pelicula from being saved:</h2>
-
       <ul>
       <% @pelicula.errors.full_messages.each do |message| %>
         <li><%= message %></li>
