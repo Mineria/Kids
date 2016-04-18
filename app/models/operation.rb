@@ -12,10 +12,19 @@ class Operation
   field :operator, type: String
 
   def validate_response? response
+  # puts "Yay"
+  # p response == result
     if operator == "+"
       result = operand1 + operand2
-      # puts "Yay"
-      # p response == result
+      response == result
+    elsif operator == "-"
+      result = operand1 - operand2
+      response == result
+    elsif operator == "*"
+      result = operand1 * operand2
+      response == result
+    else
+      result = operand1 / operand2
       response == result
     end
   end
