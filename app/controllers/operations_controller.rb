@@ -5,10 +5,12 @@ class OperationsController < ApplicationController
   end
 
   def new
+    ops = ["+", "-", "/", "*"]
+    
     @operation = Operation.new
     @operation.operand1 = rand(1..99)
     @operation.operand2 = rand(1..99)
-    @operation.operator = "+"
+    @operation.operator = ops[rand(0..3)]
     @operation.time_init = Time.new
     @operation.save
   end
