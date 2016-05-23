@@ -20,21 +20,23 @@ class OperationsController < ApplicationController
   def get_operator_number
     operator = @operation.operator
     if operator == "+"
-      1
+      0
     elsif operator == "-"
-      2
+      1
     elsif operator == "/"
-      3
+      2
     elsif operator == "*"
-      4
+      3
+    else
+      0
     end
   end
 
   def resonse_time_number response_time
     if response_time < 20.0
-        return 0
-    else
         return 1
+    else
+        return 0
     end
   end
 
@@ -54,8 +56,11 @@ class OperationsController < ApplicationController
 
     estimatation_number = res.body.to_i
     response_time_number = resonse_time_number(time).to_i
- 
-    if response_time_number < estimatation_number
+
+    puts "estimatation_number "+ estimatation_number.to_s
+    puts "response_time_number "+ response_time_number.to_s
+
+    if response_time_number >= estimatation_number
       true
     else
       false

@@ -16109,3 +16109,2038 @@ Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-23 04:22:36 
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-23 04:22:36 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-23 11:42:32 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/george/.rvm/gems/ruby-2.2.1/gems/railties-4.1.9/lib/rails/templates/rails/welcome/index.html.erb (2.4ms)
+Completed 200 OK in 23ms (Views: 11.0ms)
+
+
+Started GET "/apple-touch-icon-precomposed.png" for 127.0.0.1 at 2016-05-23 11:42:32 +0200
+
+ActionController::RoutingError (No route matches [GET] "/apple-touch-icon-precomposed.png"):
+  actionpack (4.1.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.9) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.9) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.9) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.9) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.9) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.9) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.9) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.9) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.9) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.9) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.9) lib/rails/engine.rb:514:in `call'
+  railties (4.1.9) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/george/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/george/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/george/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/george/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendered /Users/george/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/routes/_route.html.erb (6.1ms)
+  Rendered /Users/george/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/routes/_table.html.erb (8.0ms)
+  Rendered /Users/george/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (132.3ms)
+
+
+Started GET "/apple-touch-icon.png" for 127.0.0.1 at 2016-05-23 11:42:32 +0200
+
+ActionController::RoutingError (No route matches [GET] "/apple-touch-icon.png"):
+  actionpack (4.1.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.9) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.9) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.9) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.9) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.9) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.9) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.9) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.9) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.9) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.9) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.9) lib/rails/engine.rb:514:in `call'
+  railties (4.1.9) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/george/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/george/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/george/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/george/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/george/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /Users/george/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/george/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (50.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-23 11:42:33 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/george/.rvm/gems/ruby-2.2.1/gems/railties-4.1.9/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.6ms)
+
+
+Started GET "/operations/new" for 127.0.0.1 at 2016-05-23 11:42:35 +0200
+Processing by OperationsController#new as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.3790ms
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('5742d08b47656f8ab8000000'), "operand1"=>14, "operand2"=>49, "operator"=>"/", "time_init"=>2016-05-23 09:42:35 UTC}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.7830ms
+  Rendered operations/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 115ms (Views: 98.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-23 11:42:36 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-23 11:42:36 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-23 11:42:36 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-23 11:42:36 +0200
+
+
+Started GET "/operations/new" for 127.0.0.1 at 2016-05-23 11:42:36 +0200
+Processing by OperationsController#new as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4000ms
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('5742d08c47656f8ab8010000'), "operand1"=>51, "operand2"=>95, "operator"=>"-", "time_init"=>2016-05-23 09:42:36 UTC}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.5040ms
+  Rendered operations/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 43ms (Views: 38.6ms)
+
+
+Started GET "/operations/new" for 127.0.0.1 at 2016-05-23 11:42:42 +0200
+Processing by OperationsController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('5742d09247656f8ab8020000'), "operand1"=>51, "operand2"=>73, "operator"=>"+", "time_init"=>2016-05-23 09:42:42 UTC}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.5700ms
+  Rendered operations/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 35ms (Views: 33.0ms)
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-23 11:42:42 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-23 11:42:42 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-23 11:42:42 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-23 11:42:42 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-23 11:42:42 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-23 11:42:42 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-23 11:42:42 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-23 11:42:42 +0200
+
+
+Started GET "/operations/new" for 127.0.0.1 at 2016-05-23 11:42:43 +0200
+Processing by OperationsController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('5742d09347656f8ab8030000'), "operand1"=>49, "operand2"=>56, "operator"=>"*", "time_init"=>2016-05-23 09:42:43 UTC}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.4530ms
+  Rendered operations/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 36ms (Views: 34.0ms)
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-23 11:42:43 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-23 11:42:43 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-23 11:42:43 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-23 11:42:43 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-23 11:42:43 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-23 11:42:43 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-23 11:42:43 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-23 11:42:43 +0200
+
+
+Started GET "/operations/new" for 127.0.0.1 at 2016-05-23 11:42:44 +0200
+Processing by OperationsController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('5742d09447656f8ab8040000'), "operand1"=>40, "operand2"=>62, "operator"=>"/", "time_init"=>2016-05-23 09:42:44 UTC}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.4710ms
+  Rendered operations/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 34ms (Views: 32.1ms)
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-23 11:42:44 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-23 11:42:44 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-23 11:42:44 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-23 11:42:44 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-23 11:42:44 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-23 11:42:44 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-23 11:42:44 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-23 11:42:44 +0200
+
+
+Started POST "/operations/5742d09447656f8ab8040000/new" for 127.0.0.1 at 2016-05-23 11:42:45 +0200
+Processing by OperationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"U/mINsYQQrZ7U97oBOf4cg1CiqWSg64WQnlYzt/l6sA=", "response"=>"0", "commit"=>"Submit", "id"=>"5742d09447656f8ab8040000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('5742d09447656f8ab8040000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.8360ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('5742d09447656f8ab8040000')} update={"$set"=>{"time_end"=>2016-05-23 09:42:45 UTC}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.5640ms
+Completed 500 Internal Server Error in 4ms
+
+Errno::ECONNREFUSED (Connection refused - connect(2) for "127.0.0.1" port 5000):
+  app/controllers/operations_controller.rb:51:in `estimate'
+  app/controllers/operations_controller.rb:72:in `create'
+
+
+  Rendered /Users/george/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/george/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/george/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/george/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (55.1ms)
+
+
+Started GET "/operations/new" for 127.0.0.1 at 2016-05-23 11:42:55 +0200
+Processing by OperationsController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('5742d09f47656f8ab8050000'), "operand1"=>70, "operand2"=>40, "operator"=>"+", "time_init"=>2016-05-23 09:42:55 UTC}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.7930ms
+  Rendered operations/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 109ms (Views: 106.7ms)
+
+
+Started GET "/operations/new" for 127.0.0.1 at 2016-05-23 11:42:56 +0200
+Processing by OperationsController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('5742d0a047656f8ab8060000'), "operand1"=>53, "operand2"=>95, "operator"=>"+", "time_init"=>2016-05-23 09:42:56 UTC}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.5270ms
+  Rendered operations/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 48ms (Views: 45.7ms)
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-23 11:42:56 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-23 11:42:56 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-23 11:42:56 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-23 11:42:56 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-23 11:42:56 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-23 11:42:56 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-23 11:42:56 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-23 11:42:56 +0200
+
+
+Started GET "/operations/new" for 127.0.0.1 at 2016-05-23 11:42:57 +0200
+Processing by OperationsController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('5742d0a147656f8ab8070000'), "operand1"=>44, "operand2"=>4, "operator"=>"/", "time_init"=>2016-05-23 09:42:57 UTC}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.4930ms
+  Rendered operations/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 38ms (Views: 35.9ms)
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-23 11:42:57 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-23 11:42:57 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-23 11:42:57 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-23 11:42:57 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-23 11:42:57 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-23 11:42:57 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-23 11:42:57 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-23 11:42:57 +0200
+
+
+Started POST "/operations/5742d0a147656f8ab8070000/new" for 127.0.0.1 at 2016-05-23 11:43:00 +0200
+Processing by OperationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"U/mINsYQQrZ7U97oBOf4cg1CiqWSg64WQnlYzt/l6sA=", "response"=>"11", "commit"=>"Submit", "id"=>"5742d0a147656f8ab8070000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('5742d0a147656f8ab8070000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4290ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('5742d0a147656f8ab8070000')} update={"$set"=>{"time_end"=>2016-05-23 09:43:00 UTC}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.5560ms
+  Rendered operations/response.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 55ms (Views: 37.6ms)
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-23 11:43:00 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-23 11:43:00 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-23 11:43:00 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-23 11:43:00 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-23 11:43:00 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-23 11:43:00 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-23 11:43:00 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-23 11:43:00 +0200
+
+
+Started GET "/operations/new" for 127.0.0.1 at 2016-05-23 11:43:10 +0200
+Processing by OperationsController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('5742d0ae47656f8ab8080000'), "operand1"=>31, "operand2"=>73, "operator"=>"-", "time_init"=>2016-05-23 09:43:10 UTC}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.4640ms
+  Rendered operations/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 33ms (Views: 32.1ms)
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-23 11:43:10 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-23 11:43:10 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-23 11:43:10 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-23 11:43:10 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-23 11:43:10 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-23 11:43:10 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-23 11:43:10 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-23 11:43:10 +0200
+
+
+Started GET "/operations/new" for 127.0.0.1 at 2016-05-23 11:43:14 +0200
+Processing by OperationsController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('5742d0b247656f8ab8090000'), "operand1"=>40, "operand2"=>90, "operator"=>"+", "time_init"=>2016-05-23 09:43:14 UTC}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.6510ms
+  Rendered operations/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 30ms (Views: 28.3ms)
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-23 11:43:14 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-23 11:43:14 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-23 11:43:14 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-23 11:43:14 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-23 11:43:14 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-23 11:43:14 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-23 11:43:14 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-23 11:43:14 +0200
+
+
+Started GET "/operations/new" for 127.0.0.1 at 2016-05-23 11:43:15 +0200
+Processing by OperationsController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('5742d0b347656f8ab80a0000'), "operand1"=>32, "operand2"=>46, "operator"=>"+", "time_init"=>2016-05-23 09:43:15 UTC}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 1.2200ms
+  Rendered operations/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 49ms (Views: 45.5ms)
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-23 11:43:15 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-23 11:43:15 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-23 11:43:15 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-23 11:43:15 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-23 11:43:15 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-23 11:43:15 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-23 11:43:15 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-23 11:43:15 +0200
+
+
+Started GET "/operations/new" for 127.0.0.1 at 2016-05-23 11:43:15 +0200
+Processing by OperationsController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('5742d0b347656f8ab80b0000'), "operand1"=>76, "operand2"=>38, "operator"=>"+", "time_init"=>2016-05-23 09:43:15 UTC}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.5260ms
+  Rendered operations/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 34ms (Views: 31.3ms)
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-23 11:43:16 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-23 11:43:16 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-23 11:43:16 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-23 11:43:16 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-23 11:43:16 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-23 11:43:16 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-23 11:43:16 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-23 11:43:16 +0200
+
+
+Started GET "/operations/new" for 127.0.0.1 at 2016-05-23 11:43:16 +0200
+Processing by OperationsController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('5742d0b447656f8ab80c0000'), "operand1"=>98, "operand2"=>63, "operator"=>"-", "time_init"=>2016-05-23 09:43:16 UTC}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.6130ms
+  Rendered operations/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 36ms (Views: 34.2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-23 11:43:16 +0200
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-23 11:43:16 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-23 11:43:16 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-23 11:43:16 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-23 11:43:16 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-23 11:43:16 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-23 11:43:16 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-23 11:43:16 +0200
+
+
+Started GET "/operations/new" for 127.0.0.1 at 2016-05-23 11:43:17 +0200
+Processing by OperationsController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('5742d0b547656f8ab80d0000'), "operand1"=>96, "operand2"=>3, "operator"=>"+", "time_init"=>2016-05-23 09:43:17 UTC}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.4630ms
+  Rendered operations/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 37ms (Views: 35.2ms)
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-23 11:43:17 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-23 11:43:17 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-23 11:43:17 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-23 11:43:17 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-23 11:43:17 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-23 11:43:17 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-23 11:43:17 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-23 11:43:17 +0200
+
+
+Started GET "/operations/new" for 127.0.0.1 at 2016-05-23 11:43:17 +0200
+Processing by OperationsController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('5742d0b547656f8ab80e0000'), "operand1"=>46, "operand2"=>35, "operator"=>"*", "time_init"=>2016-05-23 09:43:17 UTC}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 1.0920ms
+  Rendered operations/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 38ms (Views: 36.0ms)
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-23 11:43:18 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-23 11:43:18 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-23 11:43:18 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-23 11:43:18 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-23 11:43:18 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-23 11:43:18 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-23 11:43:18 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-23 11:43:18 +0200
+
+
+Started GET "/operations/new" for 127.0.0.1 at 2016-05-23 11:43:18 +0200
+Processing by OperationsController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('5742d0b647656f8ab80f0000'), "operand1"=>25, "operand2"=>40, "operator"=>"+", "time_init"=>2016-05-23 09:43:18 UTC}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.6120ms
+  Rendered operations/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 31ms (Views: 29.5ms)
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-23 11:43:18 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-23 11:43:18 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-23 11:43:18 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-23 11:43:18 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-23 11:43:18 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-23 11:43:18 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-23 11:43:18 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-23 11:43:18 +0200
+
+
+Started GET "/operations/new" for 127.0.0.1 at 2016-05-23 11:43:19 +0200
+Processing by OperationsController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('5742d0b747656f8ab8100000'), "operand1"=>82, "operand2"=>46, "operator"=>"/", "time_init"=>2016-05-23 09:43:19 UTC}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.5100ms
+  Rendered operations/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 43ms (Views: 41.5ms)
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-23 11:43:19 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-23 11:43:19 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-23 11:43:19 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-23 11:43:19 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-23 11:43:19 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-23 11:43:19 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-23 11:43:19 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-23 11:43:19 +0200
+
+
+Started POST "/operations/5742d0b747656f8ab8100000/new" for 127.0.0.1 at 2016-05-23 11:43:26 +0200
+Processing by OperationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"U/mINsYQQrZ7U97oBOf4cg1CiqWSg64WQnlYzt/l6sA=", "response"=>"1", "commit"=>"Submit", "id"=>"5742d0b747656f8ab8100000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('5742d0b747656f8ab8100000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5000ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('5742d0b747656f8ab8100000')} update={"$set"=>{"time_end"=>2016-05-23 09:43:26 UTC}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.6940ms
+  Rendered operations/response.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 45ms (Views: 39.6ms)
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-23 11:43:26 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-23 11:43:26 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-23 11:43:26 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-23 11:43:26 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-23 11:43:26 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-23 11:43:26 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-23 11:43:26 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-23 11:43:26 +0200
+
+
+Started POST "/operations/5742d0b747656f8ab8100000/new" for 127.0.0.1 at 2016-05-23 11:44:27 +0200
+Processing by OperationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"U/mINsYQQrZ7U97oBOf4cg1CiqWSg64WQnlYzt/l6sA=", "response"=>"1", "commit"=>"Submit", "id"=>"5742d0b747656f8ab8100000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4060ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('5742d0b747656f8ab8100000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4310ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('5742d0b747656f8ab8100000')} update={"$set"=>{"time_end"=>2016-05-23 09:44:27 UTC}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.5220ms
+  Rendered operations/response.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 69ms (Views: 45.5ms)
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-23 11:44:27 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-23 11:44:27 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-23 11:44:27 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-23 11:44:27 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-23 11:44:28 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-23 11:44:28 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-23 11:44:28 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-23 11:44:28 +0200
+
+
+Started POST "/operations/5742d0b747656f8ab8100000/new" for 127.0.0.1 at 2016-05-23 11:44:29 +0200
+Processing by OperationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"U/mINsYQQrZ7U97oBOf4cg1CiqWSg64WQnlYzt/l6sA=", "response"=>"1", "commit"=>"Submit", "id"=>"5742d0b747656f8ab8100000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('5742d0b747656f8ab8100000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4740ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('5742d0b747656f8ab8100000')} update={"$set"=>{"time_end"=>2016-05-23 09:44:29 UTC}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.5890ms
+  Rendered operations/response.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 47ms (Views: 36.4ms)
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-23 11:44:29 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-23 11:44:29 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-23 11:44:29 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-23 11:44:29 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-23 11:44:29 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-23 11:44:29 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-23 11:44:29 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-23 11:44:29 +0200
+
+
+Started POST "/operations/5742d0b747656f8ab8100000/new" for 127.0.0.1 at 2016-05-23 11:50:36 +0200
+Processing by OperationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"U/mINsYQQrZ7U97oBOf4cg1CiqWSg64WQnlYzt/l6sA=", "response"=>"1", "commit"=>"Submit", "id"=>"5742d0b747656f8ab8100000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5060ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('5742d0b747656f8ab8100000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4890ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('5742d0b747656f8ab8100000')} update={"$set"=>{"time_end"=>2016-05-23 09:50:36 UTC}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 1.9380ms
+  Rendered operations/response.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 52ms (Views: 38.9ms)
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-23 11:50:36 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-23 11:50:36 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-23 11:50:36 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-23 11:50:36 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-23 11:50:36 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-23 11:50:36 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-23 11:50:36 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-23 11:50:36 +0200
+
+
+Started GET "/operations" for 127.0.0.1 at 2016-05-23 11:50:39 +0200
+Processing by OperationsController#index as HTML
+  Rendered operations/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 64ms (Views: 62.8ms)
+
+
+Started GET "/operations" for 127.0.0.1 at 2016-05-23 11:50:39 +0200
+Processing by OperationsController#index as HTML
+  Rendered operations/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 64ms (Views: 63.3ms)
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-23 11:50:40 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-23 11:50:40 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-23 11:50:40 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-23 11:50:40 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-23 11:50:40 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-23 11:50:40 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-23 11:50:40 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-23 11:50:40 +0200
+
+
+Started GET "/operations/new" for 127.0.0.1 at 2016-05-23 11:50:41 +0200
+Processing by OperationsController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('5742d27147656f8ab8110000'), "operand1"=>36, "operand2"=>75, "operator"=>"/", "time_init"=>2016-05-23 09:50:41 UTC}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.5850ms
+  Rendered operations/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 35ms (Views: 32.7ms)
+
+
+Started POST "/operations/5742d27147656f8ab8110000/new" for 127.0.0.1 at 2016-05-23 11:50:43 +0200
+Processing by OperationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"U/mINsYQQrZ7U97oBOf4cg1CiqWSg64WQnlYzt/l6sA=", "response"=>"0", "commit"=>"Submit", "id"=>"5742d27147656f8ab8110000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('5742d27147656f8ab8110000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4170ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('5742d27147656f8ab8110000')} update={"$set"=>{"time_end"=>2016-05-23 09:50:43 UTC}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.6120ms
+  Rendered operations/response.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 47ms (Views: 41.8ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-23 11:50:43 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-23 11:50:43 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-23 11:50:43 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-23 11:50:43 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-23 11:50:43 +0200
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-23 11:50:43 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-23 11:50:43 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-23 11:50:43 +0200
+
+
+Started POST "/operations/5742d27147656f8ab8110000/new" for 127.0.0.1 at 2016-05-23 11:51:18 +0200
+Processing by OperationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"U/mINsYQQrZ7U97oBOf4cg1CiqWSg64WQnlYzt/l6sA=", "response"=>"0", "commit"=>"Submit", "id"=>"5742d27147656f8ab8110000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4560ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('5742d27147656f8ab8110000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4620ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('5742d27147656f8ab8110000')} update={"$set"=>{"time_end"=>2016-05-23 09:51:18 UTC}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 1.6110ms
+  Rendered operations/response.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 51ms (Views: 36.3ms)
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-23 11:51:18 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-23 11:51:18 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-23 11:51:18 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-23 11:51:18 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-23 11:51:18 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-23 11:51:18 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-23 11:51:18 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-23 11:51:18 +0200
+
+
+Started POST "/operations/5742d27147656f8ab8110000/new" for 127.0.0.1 at 2016-05-23 11:51:19 +0200
+Processing by OperationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"U/mINsYQQrZ7U97oBOf4cg1CiqWSg64WQnlYzt/l6sA=", "response"=>"0", "commit"=>"Submit", "id"=>"5742d27147656f8ab8110000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('5742d27147656f8ab8110000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5810ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('5742d27147656f8ab8110000')} update={"$set"=>{"time_end"=>2016-05-23 09:51:19 UTC}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 1.1650ms
+  Rendered operations/response.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 47ms (Views: 39.9ms)
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-23 11:51:20 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-23 11:51:20 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-23 11:51:20 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-23 11:51:20 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-23 11:51:20 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-23 11:51:20 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-23 11:51:20 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-23 11:51:20 +0200
+
+
+Started POST "/operations/5742d27147656f8ab8110000/new" for 127.0.0.1 at 2016-05-23 11:51:34 +0200
+Processing by OperationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"U/mINsYQQrZ7U97oBOf4cg1CiqWSg64WQnlYzt/l6sA=", "response"=>"0", "commit"=>"Submit", "id"=>"5742d27147656f8ab8110000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('5742d27147656f8ab8110000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.7170ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('5742d27147656f8ab8110000')} update={"$set"=>{"time_end"=>2016-05-23 09:51:34 UTC}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.6400ms
+  Rendered operations/response.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 48ms (Views: 35.5ms)
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-23 11:51:34 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-23 11:51:34 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-23 11:51:34 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-23 11:51:34 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-23 11:51:34 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-23 11:51:34 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-23 11:51:34 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-23 11:51:34 +0200
+
+
+Started POST "/operations/5742d27147656f8ab8110000/new" for 127.0.0.1 at 2016-05-23 11:51:36 +0200
+Processing by OperationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"U/mINsYQQrZ7U97oBOf4cg1CiqWSg64WQnlYzt/l6sA=", "response"=>"0", "commit"=>"Submit", "id"=>"5742d27147656f8ab8110000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('5742d27147656f8ab8110000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4440ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('5742d27147656f8ab8110000')} update={"$set"=>{"time_end"=>2016-05-23 09:51:36 UTC}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.4920ms
+  Rendered operations/response.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 43ms (Views: 38.2ms)
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-23 11:51:36 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-23 11:51:36 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-23 11:51:36 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-23 11:51:36 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-23 11:51:36 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-23 11:51:36 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-23 11:51:36 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-23 11:51:36 +0200
+
+
+Started POST "/operations/5742d27147656f8ab8110000/new" for 127.0.0.1 at 2016-05-23 11:51:44 +0200
+Processing by OperationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"U/mINsYQQrZ7U97oBOf4cg1CiqWSg64WQnlYzt/l6sA=", "response"=>"0", "commit"=>"Submit", "id"=>"5742d27147656f8ab8110000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('5742d27147656f8ab8110000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4690ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('5742d27147656f8ab8110000')} update={"$set"=>{"time_end"=>2016-05-23 09:51:44 UTC}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.4800ms
+  Rendered operations/response.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 53ms (Views: 46.2ms)
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-23 11:51:44 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-23 11:51:44 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-23 11:51:44 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-23 11:51:44 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-23 11:51:44 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-23 11:51:44 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-23 11:51:44 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-23 11:51:44 +0200
+
+
+Started GET "/operations/new" for 127.0.0.1 at 2016-05-23 11:51:47 +0200
+Processing by OperationsController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('5742d2b347656f8ab8120000'), "operand1"=>67, "operand2"=>41, "operator"=>"*", "time_init"=>2016-05-23 09:51:47 UTC}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.4940ms
+  Rendered operations/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 48ms (Views: 45.2ms)
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-23 11:51:47 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-23 11:51:47 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-23 11:51:47 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-23 11:51:47 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-23 11:51:47 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-23 11:51:47 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-23 11:51:47 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-23 11:51:47 +0200
+
+
+Started GET "/operations/new" for 127.0.0.1 at 2016-05-23 11:51:55 +0200
+Processing by OperationsController#new as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3860ms
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('5742d2bb47656f8ab8130000'), "operand1"=>39, "operand2"=>38, "operator"=>"/", "time_init"=>2016-05-23 09:51:55 UTC}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.4410ms
+  Rendered operations/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 39ms (Views: 36.5ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-23 11:51:55 +0200
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-23 11:51:55 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-23 11:51:55 +0200
+
+
+Started POST "/operations/5742d2b347656f8ab8120000/new" for 127.0.0.1 at 2016-05-23 11:51:56 +0200
+Processing by OperationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"U/mINsYQQrZ7U97oBOf4cg1CiqWSg64WQnlYzt/l6sA=", "response"=>"2747", "commit"=>"Submit", "id"=>"5742d2b347656f8ab8120000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('5742d2b347656f8ab8120000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4140ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('5742d2b347656f8ab8120000')} update={"$set"=>{"time_end"=>2016-05-23 09:51:56 UTC}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.4890ms
+  Rendered operations/response.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 46ms (Views: 40.9ms)
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-23 11:51:56 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-23 11:51:56 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-23 11:51:56 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-23 11:51:56 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-23 11:51:56 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-23 11:51:56 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-23 11:51:56 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-23 11:51:56 +0200
+
+
+Started GET "/operations/5742d2b347656f8ab8120000/new" for 127.0.0.1 at 2016-05-23 11:52:19 +0200
+
+ActionController::RoutingError (No route matches [GET] "/operations/5742d2b347656f8ab8120000/new"):
+  actionpack (4.1.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.9) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.9) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.9) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.9) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.9) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.9) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.9) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.9) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.9) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.9) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.9) lib/rails/engine.rb:514:in `call'
+  railties (4.1.9) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/george/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/george/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/george/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/george/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/george/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered /Users/george/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/routes/_table.html.erb (10.3ms)
+  Rendered /Users/george/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (70.0ms)
+
+
+Started GET "/operations/5742d2b347656f8ab8120000/new" for 127.0.0.1 at 2016-05-23 11:52:20 +0200
+
+ActionController::RoutingError (No route matches [GET] "/operations/5742d2b347656f8ab8120000/new"):
+  actionpack (4.1.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.9) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.9) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.9) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.9) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.9) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.9) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.9) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.9) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.9) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.9) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.9) lib/rails/engine.rb:514:in `call'
+  railties (4.1.9) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/george/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/george/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/george/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/george/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/george/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered /Users/george/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/george/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (57.3ms)
+
+
+Started GET "/operations/5742694f47656f730b070000/new" for 127.0.0.1 at 2016-05-23 11:52:24 +0200
+
+ActionController::RoutingError (No route matches [GET] "/operations/5742694f47656f730b070000/new"):
+  actionpack (4.1.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.9) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.9) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.9) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.9) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.9) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.9) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.9) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.9) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.9) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.9) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.9) lib/rails/engine.rb:514:in `call'
+  railties (4.1.9) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/george/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/george/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/george/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/george/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/george/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.7ms)
+  Rendered /Users/george/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.3ms)
+  Rendered /Users/george/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (56.2ms)
+
+
+Started GET "/operations/" for 127.0.0.1 at 2016-05-23 11:52:24 +0200
+Processing by OperationsController#index as HTML
+  Rendered operations/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 107ms (Views: 96.9ms)
+
+
+Started GET "/operations/new" for 127.0.0.1 at 2016-05-23 11:52:24 +0200
+Processing by OperationsController#new as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.1110ms
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('5742d2d847656f8f63000000'), "operand1"=>22, "operand2"=>92, "operator"=>"+", "time_init"=>2016-05-23 09:52:24 UTC}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.7570ms
+  Rendered operations/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 57ms (Views: 38.6ms)
+
+
+Started GET "/operations/new" for 127.0.0.1 at 2016-05-23 11:52:24 +0200
+Processing by OperationsController#new as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4800ms
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('5742d2d947656f8f63010000'), "operand1"=>44, "operand2"=>81, "operator"=>"+", "time_init"=>2016-05-23 09:52:25 UTC}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.5840ms
+  Rendered operations/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 58ms (Views: 54.9ms)
+
+
+Started GET "/operations/new" for 127.0.0.1 at 2016-05-23 11:52:27 +0200
+Processing by OperationsController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('5742d2db47656f8f63020000'), "operand1"=>6, "operand2"=>82, "operator"=>"+", "time_init"=>2016-05-23 09:52:27 UTC}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.4790ms
+  Rendered operations/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 44ms (Views: 43.0ms)
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-23 11:52:27 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-23 11:52:27 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-23 11:52:27 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:27 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:27 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:27 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:27 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:27 +0200
+
+
+Started GET "/operations/new" for 127.0.0.1 at 2016-05-23 11:52:28 +0200
+Processing by OperationsController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('5742d2dc47656f8f63030000'), "operand1"=>92, "operand2"=>34, "operator"=>"+", "time_init"=>2016-05-23 09:52:28 UTC}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.5580ms
+  Rendered operations/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 32ms (Views: 29.7ms)
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-23 11:52:28 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-23 11:52:28 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-23 11:52:28 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:28 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:28 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:28 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:28 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:28 +0200
+
+
+Started GET "/operations/new" for 127.0.0.1 at 2016-05-23 11:52:28 +0200
+Processing by OperationsController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('5742d2dc47656f8f63040000'), "operand1"=>99, "operand2"=>77, "operator"=>"*", "time_init"=>2016-05-23 09:52:28 UTC}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.5190ms
+  Rendered operations/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 35ms (Views: 33.1ms)
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-23 11:52:29 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-23 11:52:29 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:29 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-23 11:52:29 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:29 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:29 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:29 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:29 +0200
+
+
+Started GET "/operations/new" for 127.0.0.1 at 2016-05-23 11:52:29 +0200
+Processing by OperationsController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('5742d2dd47656f8f63050000'), "operand1"=>87, "operand2"=>58, "operator"=>"+", "time_init"=>2016-05-23 09:52:29 UTC}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.4350ms
+  Rendered operations/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 42ms (Views: 40.5ms)
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-23 11:52:29 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-23 11:52:29 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:29 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-23 11:52:29 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:29 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:29 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:29 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:29 +0200
+
+
+Started GET "/operations/new" for 127.0.0.1 at 2016-05-23 11:52:30 +0200
+Processing by OperationsController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('5742d2de47656f8f63060000'), "operand1"=>87, "operand2"=>52, "operator"=>"+", "time_init"=>2016-05-23 09:52:30 UTC}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.4280ms
+  Rendered operations/new.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 37ms (Views: 35.9ms)
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-23 11:52:30 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-23 11:52:30 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:30 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:30 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:30 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:30 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-23 11:52:30 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:30 +0200
+
+
+Started GET "/operations/new" for 127.0.0.1 at 2016-05-23 11:52:31 +0200
+Processing by OperationsController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('5742d2df47656f8f63070000'), "operand1"=>86, "operand2"=>18, "operator"=>"+", "time_init"=>2016-05-23 09:52:31 UTC}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.4250ms
+  Rendered operations/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 32ms (Views: 30.8ms)
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-23 11:52:31 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-23 11:52:31 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:31 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-23 11:52:31 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:31 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:31 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:31 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:31 +0200
+
+
+Started GET "/operations/new" for 127.0.0.1 at 2016-05-23 11:52:31 +0200
+Processing by OperationsController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('5742d2df47656f8f63080000'), "operand1"=>71, "operand2"=>64, "operator"=>"+", "time_init"=>2016-05-23 09:52:31 UTC}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.5050ms
+  Rendered operations/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 41ms (Views: 39.0ms)
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-23 11:52:31 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-23 11:52:31 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:31 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:31 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-23 11:52:31 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:31 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:31 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:31 +0200
+
+
+Started GET "/operations/new" for 127.0.0.1 at 2016-05-23 11:52:32 +0200
+Processing by OperationsController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('5742d2e047656f8f63090000'), "operand1"=>90, "operand2"=>38, "operator"=>"/", "time_init"=>2016-05-23 09:52:32 UTC}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.4980ms
+  Rendered operations/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 30ms (Views: 28.5ms)
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-23 11:52:32 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-23 11:52:32 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-23 11:52:32 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:32 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:32 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:32 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:32 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:32 +0200
+
+
+Started GET "/operations/new" for 127.0.0.1 at 2016-05-23 11:52:32 +0200
+Processing by OperationsController#new as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4170ms
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('5742d2e047656f8f630a0000'), "operand1"=>11, "operand2"=>70, "operator"=>"/", "time_init"=>2016-05-23 09:52:32 UTC}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.4440ms
+  Rendered operations/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 31ms (Views: 29.3ms)
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-23 11:52:32 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-23 11:52:32 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-23 11:52:32 +0200
+
+
+Started GET "/operations/5742d2b347656f8ab8120000/new" for 127.0.0.1 at 2016-05-23 11:52:32 +0200
+
+ActionController::RoutingError (No route matches [GET] "/operations/5742d2b347656f8ab8120000/new"):
+  actionpack (4.1.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.9) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.9) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.9) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.9) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.9) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.9) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.9) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.9) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.9) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.9) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.9) lib/rails/engine.rb:514:in `call'
+  railties (4.1.9) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/george/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/george/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/george/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/george/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/george/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /Users/george/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /Users/george/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (60.4ms)
+
+
+Started POST "/operations/5742d2e047656f8f63090000/new" for 127.0.0.1 at 2016-05-23 11:52:34 +0200
+Processing by OperationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"U/mINsYQQrZ7U97oBOf4cg1CiqWSg64WQnlYzt/l6sA=", "response"=>"2", "commit"=>"Submit", "id"=>"5742d2e047656f8f63090000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('5742d2e047656f8f63090000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4810ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('5742d2e047656f8f63090000')} update={"$set"=>{"time_end"=>2016-05-23 09:52:34 UTC}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.4660ms
+  Rendered operations/response.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 57ms (Views: 51.4ms)
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-23 11:52:34 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-23 11:52:34 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:34 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-23 11:52:34 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:34 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:34 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:34 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:34 +0200
+
+
+Started GET "/operations/new" for 127.0.0.1 at 2016-05-23 11:52:50 +0200
+Processing by OperationsController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('5742d2f247656f8f630b0000'), "operand1"=>89, "operand2"=>25, "operator"=>"/", "time_init"=>2016-05-23 09:52:50 UTC}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.4560ms
+  Rendered operations/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 34ms (Views: 32.0ms)
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-23 11:52:51 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-23 11:52:51 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:51 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:51 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:51 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:51 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-23 11:52:51 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:51 +0200
+
+
+Started POST "/operations/5742d2f247656f8f630b0000/new" for 127.0.0.1 at 2016-05-23 11:52:53 +0200
+Processing by OperationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"U/mINsYQQrZ7U97oBOf4cg1CiqWSg64WQnlYzt/l6sA=", "response"=>"4", "commit"=>"Submit", "id"=>"5742d2f247656f8f630b0000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('5742d2f247656f8f630b0000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4110ms
+  Rendered operations/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 32ms (Views: 31.2ms)
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-23 11:52:53 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-23 11:52:53 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:53 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:53 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:53 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:53 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-23 11:52:53 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:53 +0200
+
+
+Started POST "/operations/5742d2f247656f8f630b0000/new" for 127.0.0.1 at 2016-05-23 11:52:54 +0200
+Processing by OperationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"U/mINsYQQrZ7U97oBOf4cg1CiqWSg64WQnlYzt/l6sA=", "response"=>"3", "commit"=>"Submit", "id"=>"5742d2f247656f8f630b0000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('5742d2f247656f8f630b0000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5290ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('5742d2f247656f8f630b0000')} update={"$set"=>{"time_end"=>2016-05-23 09:52:54 UTC}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.4650ms
+  Rendered operations/response.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 34ms (Views: 29.9ms)
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-23 11:52:54 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-23 11:52:54 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-23 11:52:54 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:54 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:54 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:54 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:54 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:54 +0200
+
+
+Started POST "/operations/5742d2f247656f8f630b0000/new" for 127.0.0.1 at 2016-05-23 11:52:58 +0200
+Processing by OperationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"U/mINsYQQrZ7U97oBOf4cg1CiqWSg64WQnlYzt/l6sA=", "response"=>"3", "commit"=>"Submit", "id"=>"5742d2f247656f8f630b0000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('5742d2f247656f8f630b0000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5170ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('5742d2f247656f8f630b0000')} update={"$set"=>{"time_end"=>2016-05-23 09:52:58 UTC}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.5180ms
+  Rendered operations/response.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 45ms (Views: 38.9ms)
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-23 11:52:59 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-23 11:52:59 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-23 11:52:59 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:59 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:59 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:59 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:59 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-23 11:52:59 +0200
+
+
+Started POST "/operations/5742d2f247656f8f630b0000/new" for 127.0.0.1 at 2016-05-23 11:53:00 +0200
+Processing by OperationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"U/mINsYQQrZ7U97oBOf4cg1CiqWSg64WQnlYzt/l6sA=", "response"=>"3", "commit"=>"Submit", "id"=>"5742d2f247656f8f630b0000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('5742d2f247656f8f630b0000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.9540ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('5742d2f247656f8f630b0000')} update={"$set"=>{"time_end"=>2016-05-23 09:53:00 UTC}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.7960ms
+  Rendered operations/response.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 46ms (Views: 39.5ms)
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-23 11:53:01 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-23 11:53:01 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-23 11:53:01 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-23 11:53:01 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-23 11:53:01 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-23 11:53:01 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-23 11:53:01 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-23 11:53:01 +0200
+
+
+Started POST "/operations/5742d2f247656f8f630b0000/new" for 127.0.0.1 at 2016-05-23 11:53:16 +0200
+Processing by OperationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"U/mINsYQQrZ7U97oBOf4cg1CiqWSg64WQnlYzt/l6sA=", "response"=>"3", "commit"=>"Submit", "id"=>"5742d2f247656f8f630b0000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('5742d2f247656f8f630b0000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5220ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('5742d2f247656f8f630b0000')} update={"$set"=>{"time_end"=>2016-05-23 09:53:16 UTC}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.6300ms
+  Rendered operations/response.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 47ms (Views: 40.1ms)
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-23 11:53:16 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-23 11:53:16 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-23 11:53:16 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-23 11:53:16 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-23 11:53:16 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-23 11:53:16 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-23 11:53:16 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-23 11:53:16 +0200
+
+
+Started GET "/operations/5742d2f247656f8f630b0000/new" for 127.0.0.1 at 2016-05-23 11:53:41 +0200
+
+ActionController::RoutingError (No route matches [GET] "/operations/5742d2f247656f8f630b0000/new"):
+  actionpack (4.1.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.9) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.9) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.9) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.9) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.9) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.9) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.9) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.9) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.9) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.9) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.9) lib/rails/engine.rb:514:in `call'
+  railties (4.1.9) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/george/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/george/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/george/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/george/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/george/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.9ms)
+  Rendered /Users/george/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/routes/_table.html.erb (7.9ms)
+  Rendered /Users/george/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (65.1ms)
+
+
+Started GET "/operations/new" for 127.0.0.1 at 2016-05-23 11:53:46 +0200
+
+SyntaxError (/Users/george/Documents/code/Github/Kids/app/controllers/operations_controller.rb:63: syntax error, unexpected =>, expecting keyword_then or ';' or '\n'
+    if response_time_number => estimatation_number
+                              ^
+/Users/george/Documents/code/Github/Kids/app/controllers/operations_controller.rb:89: syntax error, unexpected keyword_end, expecting end-of-input):
+  app/controllers/operations_controller.rb:63: syntax error, unexpected =>, expecting keyword_then or ';' or '\n'
+  app/controllers/operations_controller.rb:89: syntax error, unexpected keyword_end, expecting end-of-input
+
+
+  Rendered /Users/george/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/george/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/george/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (16.9ms)
+  Rendered /Users/george/.rvm/gems/ruby-2.2.1/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (65.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-23 12:18:55 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/george/.rvm/gems/ruby-2.2.1/gems/railties-4.1.9/lib/rails/templates/rails/welcome/index.html.erb (2.1ms)
+Completed 200 OK in 19ms (Views: 9.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-23 12:18:57 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/george/.rvm/gems/ruby-2.2.1/gems/railties-4.1.9/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 1.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-23 12:18:57 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/george/.rvm/gems/ruby-2.2.1/gems/railties-4.1.9/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 1.6ms)
+
+
+Started GET "/operations/new" for 127.0.0.1 at 2016-05-23 12:18:58 +0200
+Processing by OperationsController#new as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.0050ms
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('5742d91247656f934b000000'), "operand1"=>15, "operand2"=>66, "operator"=>"+", "time_init"=>2016-05-23 10:18:58 UTC}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.6150ms
+  Rendered operations/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 111ms (Views: 96.2ms)
+
+
+Started GET "/operations/new" for 127.0.0.1 at 2016-05-23 12:18:58 +0200
+Processing by OperationsController#new as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3740ms
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('5742d91247656f934b010000'), "operand1"=>14, "operand2"=>64, "operator"=>"*", "time_init"=>2016-05-23 10:18:58 UTC}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.6970ms
+  Rendered operations/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 39ms (Views: 35.6ms)
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-23 12:18:59 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-23 12:18:59 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-23 12:18:59 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-23 12:18:59 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-23 12:18:59 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-23 12:18:59 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-23 12:18:59 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-23 12:18:59 +0200
+
+
+Started GET "/operations/new" for 127.0.0.1 at 2016-05-23 12:19:00 +0200
+Processing by OperationsController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('5742d91447656f934b020000'), "operand1"=>43, "operand2"=>23, "operator"=>"-", "time_init"=>2016-05-23 10:19:00 UTC}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.4780ms
+  Rendered operations/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 28ms (Views: 26.7ms)
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-23 12:19:00 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-23 12:19:00 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-23 12:19:00 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-23 12:19:00 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-23 12:19:00 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-23 12:19:00 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-23 12:19:00 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-23 12:19:00 +0200
+
+
+Started GET "/operations/new" for 127.0.0.1 at 2016-05-23 12:19:01 +0200
+Processing by OperationsController#new as HTML
+  MOPED: 127.0.0.1:27017 INSERT       database=mongo_app_development collection=operations documents=[{"_id"=>BSON::ObjectId('5742d91547656f934b030000'), "operand1"=>73, "operand2"=>78, "operator"=>"-", "time_init"=>2016-05-23 10:19:01 UTC}] flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.5530ms
+  Rendered operations/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 46ms (Views: 44.6ms)
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-23 12:19:01 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-23 12:19:01 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-23 12:19:01 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-23 12:19:01 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-23 12:19:01 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-23 12:19:01 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-23 12:19:01 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-23 12:19:01 +0200
+
+
+Started POST "/operations/5742d91547656f934b030000/new" for 127.0.0.1 at 2016-05-23 12:19:04 +0200
+Processing by OperationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"U/mINsYQQrZ7U97oBOf4cg1CiqWSg64WQnlYzt/l6sA=", "response"=>"-5", "commit"=>"Submit", "id"=>"5742d91547656f934b030000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('5742d91547656f934b030000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4180ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('5742d91547656f934b030000')} update={"$set"=>{"time_end"=>2016-05-23 10:19:04 UTC}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.8550ms
+  Rendered operations/response.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 48ms (Views: 41.1ms)
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-23 12:19:04 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-23 12:19:04 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-23 12:19:04 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-23 12:19:04 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-23 12:19:04 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-23 12:19:04 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-23 12:19:04 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-23 12:19:04 +0200
+
+
+Started POST "/operations/5742d91547656f934b030000/new" for 127.0.0.1 at 2016-05-23 12:19:59 +0200
+Processing by OperationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"U/mINsYQQrZ7U97oBOf4cg1CiqWSg64WQnlYzt/l6sA=", "response"=>"-5", "commit"=>"Submit", "id"=>"5742d91547656f934b030000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3500ms
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('5742d91547656f934b030000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4030ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('5742d91547656f934b030000')} update={"$set"=>{"time_end"=>2016-05-23 10:19:59 UTC}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.4620ms
+  Rendered operations/response.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 45ms (Views: 40.2ms)
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-23 12:19:59 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-23 12:19:59 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-23 12:19:59 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-23 12:19:59 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-23 12:19:59 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-23 12:19:59 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-23 12:19:59 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-23 12:19:59 +0200
+
+
+Started POST "/operations/5742d91547656f934b030000/new" for 127.0.0.1 at 2016-05-23 12:20:00 +0200
+Processing by OperationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"U/mINsYQQrZ7U97oBOf4cg1CiqWSg64WQnlYzt/l6sA=", "response"=>"-5", "commit"=>"Submit", "id"=>"5742d91547656f934b030000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('5742d91547656f934b030000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4490ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=mongo_app_development collection=operations selector={"_id"=>BSON::ObjectId('5742d91547656f934b030000')} update={"$set"=>{"time_end"=>2016-05-23 10:20:00 UTC}} flags=[]
+                         COMMAND      database=mongo_app_development command={:getlasterror=>1, :w=>1} runtime: 0.4740ms
+  Rendered operations/response.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 46ms (Views: 41.8ms)
+
+
+Started GET "/assets/peliculas.css?body=1" for 127.0.0.1 at 2016-05-23 12:20:01 +0200
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2016-05-23 12:20:01 +0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2016-05-23 12:20:01 +0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2016-05-23 12:20:01 +0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2016-05-23 12:20:01 +0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2016-05-23 12:20:01 +0200
+
+
+Started GET "/assets/peliculas.js?body=1" for 127.0.0.1 at 2016-05-23 12:20:01 +0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2016-05-23 12:20:01 +0200
