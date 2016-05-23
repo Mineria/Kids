@@ -31,6 +31,8 @@ class OperationsController < ApplicationController
   end
 
   def resonse_time_number response_time
+    puts response_time
+    return response_time / 5
     if response_time < 20.0
         return 0
     else
@@ -54,7 +56,10 @@ class OperationsController < ApplicationController
 
     estimatation_number = res.body.to_i
     response_time_number = resonse_time_number(time).to_i
- 
+
+    puts estimatation_number
+    puts response_time_number
+
     if response_time_number < estimatation_number
       true
     else

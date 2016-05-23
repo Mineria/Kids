@@ -1,15 +1,38 @@
-<h1>Añadir operación</h1>
 
-<%= @operation.operand1 %>
-<%= @operation.operator %>
-<%= @operation.operand2 %>
+<div class="container">
+  <h1>Añadir operación</h1>
 
-<%= form_tag(create_operation_path(@operation.id), :method=>'post', :multipart => true) do %>
- <p>
-   Reply:<br />
-   <%= text_field_tag "response" %>
- </p>
- <p>
-   <%= submit_tag 'Submit' %>
- </p>
-<% end %>
+  <%= @operation.operand1 %>
+  <%= @operation.operator %>
+  <%= @operation.operand2 %>
+
+  <%= form_tag(create_operation_path(@operation.id), :method=>'post', :multipart => true) do %>
+   <p>
+     Reply:<br />
+     <%= text_field_tag "response" %>
+   </p>
+   <p>
+     <%= submit_tag 'Submit' %>
+   </p>
+  <% end %>
+</div>
+
+<style>
+
+.container {
+  width: 300px;
+  margin:0 auto;
+}
+.response {
+  width:100%;
+  background:#cecece;
+  padding: 10px 20px;
+  color:#fff;
+}
+.bad {
+  background:red;
+}
+.good {
+  background:green;
+}
+</style>
