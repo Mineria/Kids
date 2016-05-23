@@ -1,12 +1,45 @@
 
-<h1>Your response</h1>
-<p>
-  <%= @operation.operand1 %>
-  <%= @operation.operator %>
-  <%= @operation.operand2 %>
-</p>
-<p>Time to solve operation <b><%= @operation.time_end - @operation.time_init %></b></p>
-<p><%= @operation.time_end %></p>
-<p><%= @operation.time_init %></p>
+<div class="container">
+  <h1>Your response</h1>
 
-<%= link_to 'Solve new operation >', display_operation_path %>
+  <% if @good_response_time %>
+  <div class="response good">
+    <p>Awesome. You response the operation really fast!</p>
+  </div>
+  <% else %>
+  <div class="response bad">
+    <p>Oh man! You solve the operation really slow :(</p>
+  </div>
+  <% end %>
+
+  <p>
+    <%= @operation.operand1 %>
+    <%= @operation.operator %>
+    <%= @operation.operand2 %>
+  </p>
+  <p>Time to solve operation <b><%= @operation.time_end - @operation.time_init %></b></p>
+  <p><%= @operation.time_end %></p>
+  <p><%= @operation.time_init %></p>
+
+  <%= link_to 'Solve new operation >', display_operation_path %>
+</div>
+
+<style>
+
+.container {
+  width: 300px;
+  margin:0 auto;
+}
+.response {
+  width:100%;
+  background:#cecece;
+  padding: 10px 20px;
+  color:#fff;
+}
+.bad {
+  background:red;
+}
+.good {
+  background:green;
+}
+</style>
